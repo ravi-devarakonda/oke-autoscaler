@@ -1,4 +1,4 @@
-[oci Documentation](https://cloud.oracle.com/en_US/cloud-infrastructure)
+[OCI Documentation](https://cloud.oracle.com/en_US/cloud-infrastructure)
 [OKE General Overview](https://cloud.oracle.com/containers/kubernetes-engine)
 [OCI-Signup](https://cloud.oracle.com/tryit)
 # OKE Cluster Autoscaler Function
