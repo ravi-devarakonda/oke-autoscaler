@@ -542,3 +542,8 @@ The autoscaler function is configured with a maximum runtime of 2 minutes.
 To avoid any complication or unexpected behavior associated with concurrency or overlap, it's not recommended that the oke-autoscaler function be configured to be invoked on a recurring schedule with an interval less than 2.5 minutes.
 
 If using a Kubernetes CronJob scheduled on an OKE cluster to manage the invocation of the autoscaler function, the CronJob should be scheduled to run on a different OKE node pool than the node pool being managed by the autoscaler function.
+
+>**Credits**: This repo is a copy of an existing repo written by Oracle. This is merely an attempt to make this available to everyone who's using OCI. All credits for the code and other artifacts, which are part of this repo go to the original developers in Oracle.
+
+>**Disclaimer**: This is a personal repository. All code, views or opinions represented here are personal and belong solely to me and do not represent those of people, institutions or organizations that I may or may not be associated with in professional or personal capacity, unless explicitly stated.<br>
+<br>*Also **please note**, resources deployed using these example scripts do incur charges. Make sure to terminate the deployed resources/services after your tests, to save/minimize your bills*
