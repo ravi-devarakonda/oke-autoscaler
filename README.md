@@ -1,10 +1,9 @@
+[oci Documentation](https://cloud.oracle.com/en_US/cloud-infrastructure)
+[OKE General Overview](https://cloud.oracle.com/containers/kubernetes-engine)
+[OCI-Signup](https://cloud.oracle.com/tryit)
 # OKE Cluster Autoscaler Function
 
 >**Credits**: This repo is a copy of an existing repo written by Oracle. This is merely an attempt to make this available to everyone who's using OCI. All credits for the code and other artifacts, which are part of this repo go to the original developers in Oracle.
-
-[oci](https://cloud.oracle.com/en_US/cloud-infrastructure)
-[oke](https://cloud.oracle.com/containers/kubernetes-engine)
-[oci-signup](https://cloud.oracle.com/tryit)
 
 ## Introduction
 The OKE Cluster Autoscaler Function provides an automated mechanism to scale OKE clusters by adding or removing nodes from a node pool. When you enable the autoscaler function, you don't need to manually add or remove nodes, or over-provision your node pools. Instead, you specify a minimum and maximum size for the node pool, and the rest is automatic.
